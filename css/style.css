@@ -201,6 +201,7 @@ section{
   margin-right: 30px;
   margin-top:30px; 
   box-shadow: 0px 1px 9px -4px rgba(52,73,94,0.63);
+  background-color: #CCD1E1;
   padding: 10px;
   border-radius: 5px;
   width: 30%;
@@ -284,6 +285,7 @@ section{
   margin-right: 30px ;
   padding: 20px;
   box-shadow: 0px 1px 9px -4px rgba(52,73,94,0.63);
+  background-color: #CCD1E1;
 
 }
 
@@ -302,13 +304,17 @@ section{
 .visores img{
   width: 190px;
   height: 190px;
+  border-radius: 10px;
   margin-bottom: 20px;
+  box-shadow: 0px 1px 18px -4px rgba(52,73,94,0.63);
 }
 
 .audioguia img{
   width: 190px;
   height: 190px;
+  border-radius: 10px;
   margin-bottom: 20px;
+  box-shadow: 0px 1px 18px -4px rgba(52,73,94,0.63);
 }
 
 .cortos-accesibles p{
