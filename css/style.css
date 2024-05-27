@@ -8,6 +8,7 @@ body{
   font-family:'lato', sans-serif;
 }
 
+
 header{
   display: flex;
   justify-content: center;
@@ -132,7 +133,7 @@ section{
 .que-es a{
   font-size: 18px; 
   font-weight: bold;
-  color: #34495E;
+  color: #0067BB;
 }
 
 .que-es a:hover{
@@ -355,4 +356,62 @@ caption {
   margin-bottom: 25px;
 }
 
+.comunidad-accesibilidad p{
+  font-size: 18px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.comunidad-accesibilidad form{
+  font-size: 18px;
+  font-weight: bold;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 30px; 
+}
+
+.comunidad-accesibilidad form div{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.comunidad-accesibilidad form input{
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+}
+
+.comunidad-accesibilidad form textarea{
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  height: 100px !important;
+}
+.comunidad-accesibilidad form button{
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #000;
+  background-color: #FDD85D;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+
+footer{
+  position: relative;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cabecera-color);
+  width: 100%;
+  height: 70px;
+  padding: 10px;
+  margin-top: 50px;
+  box-shadow: 2px -10px 12px -11px rgba(0,0,0,0.75);
+}
 
