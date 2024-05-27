@@ -3,93 +3,126 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <title>Cortos</title>
   </head>
   <body>
-    <!-- Poner ese aria label como caption -->
-    <table>
-      <caption> Comparación de películas populares respecto a sus elementos y calificación de accesibilidad.</caption>
-      <thead>
-        <tr>
-          <th scope="col">Título de la Película</th>
-          <th scope="col">Subtítulos Disponibles</th>
-          <th scope="col">Audio Descripción</th>
-          <th scope="col">Disponible en Plataformas con Acceso</th>
-          <th scope="col">Calificación de Accesibilidad (1-5)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">Toy Story 4</th>
-          <td>Sí</td>
-          <td>Sí</td>
-          <td>Disney+, Amazon Prime</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <th scope="row">Frozen II</th>
-          <td>Sí</td>
-          <td>Sí</td>
-          <td>Disney+, Apple TV	</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <th scope="row">Spider-Man: Into the Spider-Verse</th>
-          <td>Sí</td>
-          <td>No</td>
-          <td>Netflix, Amazon Prime</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <th scope="row">Coco</th>
-          <td>Sí</td>
-          <td>Sí</td>
-          <td>Disney+, Netflix</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <th scope="row">How to Train Your Dragon: The Hidden World</th>
-          <td>Sí</td>
-          <td>No</td>
-          <td>Hulu, Amazon Prime</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <th scope="row">The Incredibles 2</th>
-          <td>Sí</td>
-          <td>Sí</td>
-          <td>Disney+, Amazon Prime</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <th scope="row">Moana</th>
-          <td>Sí</td>
-          <td>Sí</td>
-          <td>Disney+, Netflix</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <th scope="row">The Secret Life of Pets 2</th>
-          <td>Sí</td>
-          <td>No</td>
-          <td>Netflix, Amazon Prime</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <th scope="row">Onward</th>
-          <td>Sí</td>
-          <td>Sí</td>
-          <td>Disney+, Amazon Prime</td>
-          <td>5</td>
-        </tr>
-        <tr>
-          <th scope="row">Despicable Me 3</th>
-          <td>Sí</td>
-          <td>No</td>
-          <td>Netflix, Hulu</td>
-          <td>4</td>
-        </tr>
-      </tbody>
-    </table>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="cortos.html">Cortos accesibles</a></li>
+          <li><a href="organizaciones.html">Organizaciones en México</a></li>
+          <li><a href="comunidad.html">Comunidad</a></li>
+        </ul>
+      </nav>
+      <h1>Cortos accesibles</h1>
+    </header>
+    
+    <main>
+      <section class="cortos-accesibles">
+        <p>
+          En nuestro esfuerzo por hacer que el cine sea accesible para todos, hemos elegido algunos cortometrajes. La escena de los pingüinos "Trampa de Turistas" de Madagascar 2, ofrecemos dos versiones diferentes: una con subtítulos para aquellos que tienen dificultades auditivas y otra con descripciones de audio para personas con problemas de visión. Estos cortometrajes muestran cómo la tecnología y la creatividad pueden trabajar juntas para hacer que el cine sea una experiencia que todos puedan disfrutar.
+        </p>
+        <div>
+          <div>
+            <h2>Trampa de turistas: audio descripción.</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LJHoJAE9Pfc?si=uDL9U2FDuy4N7WJe" title="Trampa de turistas. Audio descripcion" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+          <div>
+            <h2>Trampa de Turistas: Close captions (subtítulos).</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PZSFih7SQDk?si=xOvpW2XR1Faqrd3M" title="Trampa de turistas. Close captions" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+        </div> 
+        <table>
+          <caption> Comparación de películas populares respecto a sus elementos y calificación de accesibilidad.</caption>
+          <thead>
+            <tr>
+              <th scope="col">Título de la Película</th>
+              <th scope="col">Subtítulos Disponibles</th>
+              <th scope="col">Audio Descripción</th>
+              <th scope="col">Disponible en Plataformas con Acceso</th>
+              <th scope="col">Calificación de Accesibilidad (1-5)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Toy Story 4</th>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Disney+, Amazon Prime</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Frozen II</th>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Disney+, Apple TV	</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Spider-Man: Into the Spider-Verse</th>
+              <td>Sí</td>
+              <td>No</td>
+              <td>Netflix, Amazon Prime</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <th scope="row">Coco</th>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Disney+, Netflix</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">How to Train Your Dragon: The Hidden World</th>
+              <td>Sí</td>
+              <td>No</td>
+              <td>Hulu, Amazon Prime</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <th scope="row">The Incredibles 2</th>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Disney+, Amazon Prime</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Moana</th>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Disney+, Netflix</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">The Secret Life of Pets 2</th>
+              <td>Sí</td>
+              <td>No</td>
+              <td>Netflix, Amazon Prime</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <th scope="row">Onward</th>
+              <td>Sí</td>
+              <td>Sí</td>
+              <td>Disney+, Amazon Prime</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <th scope="row">Despicable Me 3</th>
+              <td>Sí</td>
+              <td>No</td>
+              <td>Netflix, Hulu</td>
+              <td>4</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
   </body>
 </html>
