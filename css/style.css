@@ -306,8 +306,53 @@ section{
   margin-bottom: 20px;
 }
 
+.cortos-accesibles p{
+  font-size: 18px;
+  margin-bottom: 45px;
+  line-height: 1.5;
+}
 
+.cortos-accesibles h2{
+  font-size: 25px;
+  margin-bottom: 20px;
+}
 
+.cortos-accesibles .videos-accesibles{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
 
+.cortos-accesibles .video-descripcion{
+  margin-right: 45px;
+}
+
+.cortos-accesibles table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #CCD1E1;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #CCD1E1;
+}
+
+tr:hover {
+  background-color: #CCD1E1;
+}
+
+caption {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+}
 
 
