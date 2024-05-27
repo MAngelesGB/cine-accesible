@@ -41,6 +41,16 @@ nav ul{
   font-weight:medium;
 }
 
+.menu-item.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.menu-item.active::after {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 nav li{
   margin: 0 20px;
 }
