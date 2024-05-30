@@ -146,6 +146,7 @@ section{
   font-size: 22px; 
   font-weight: bold;
   color: #0067BB;
+  text-decoration: underline;
 }
 
 .que-es a:hover{
@@ -439,6 +440,7 @@ caption {
   font-size: 18px;
   font-weight: bold;
   color: #0067BB;
+  text-decoration: underline;
 }
 
 .organizaciones-accesibilidad ul li a:hover{
